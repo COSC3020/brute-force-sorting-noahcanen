@@ -1,5 +1,6 @@
 function permutationSort(x) {
     num = 0
+        if (sorted(x) == true) {return num}
     num = permutation(x,0,num)
 
     return num
