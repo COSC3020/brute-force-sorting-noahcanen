@@ -21,10 +21,11 @@ function permutation(x, a,num) {
         [x[b], x[a]] = [x[a], x[b]]
     }
     
-}tion sorted(x){
-
+}
+function sorted(x){
+    console.log("sorted")
     for (let i = 0; i < x.length; i++) {
-
+        console.log(x[i] , x[i+1],x)
         if (x[i] > x[i+1]){
             return false
         }
