@@ -53,7 +53,7 @@ So $n + n * n * n * n! = n + n^3 * n! ∈ Θ (n^3 * n!)$
 What does a best-case input for your implementation look like?
 
 
-The best case is an already sorted list, which would result in a runtime of n.
+The best case is an already sorted list, resulting in a n runtime.
 
 
 What does a worst-case input look like?
@@ -65,7 +65,7 @@ The worst case would be a list that forces the algorithm to do every possible pe
 How would this complexity change if you generated permutations randomly without memory instead of systematically trying them?
 
 
-The best case would still be the same because you could get a sorted left after the first random sort. But the worst case would be Infinity because there is a possibility that you just never randomly git the sorted list.
+The best case would remain the same because you could get a sorted list as an input. But the worst case would be Infinity because it is possible that you never randomly get the sorted list.
 
 
 For this assignment, I used the resources of https://www.w3schools.com/js/js_loop_for.asp,https://www.w3schools.com/js/js_loop_for.asp
