@@ -29,25 +29,25 @@ What is the runtime complexity of the algorithm that you implemented?
 2 I call a permutation which has a for loop that will run for the length of an array so the complexity of that is n
 
 
-3 inside of the for loop sorted I call sorted which has a for loop that will run for the length of an array so the complexity of that is n
+3 inside of the for loop I call sorted which has a for loop that will run for the length of an array so the complexity of that is n
 
 
-4 add 1 to num which can be done in constant time
+4 inside of the for loop add 1 to num which can be done in constant time
 
 
-5 swap elements A&B which can be done in constant time
+5 inside of the for loop swap elements A&B which can be done in constant time
 
 
-6 Recursively call permutation which has a for loop that will run for the length of an array from a starting position of b +1 so the complexity of that is !n and a constant time factor of adding num to num
+6 inside of the for loop. Recursively call permutation, which has a for loop that will run for the length of an array from a starting position of b +1 so the complexity of that is !n and a constant time factor of adding num to num.
 
 
 7 inside of the for loop sorted I call sorted which has a for loop that will run for the length of an array so the complexity of that is n
 
 
-8 swap elements A&B which can be done in constant time
+8 inside of the for loop swap elements A&B, which can be done in constant time
 
 
-So $n + n * n * n * n! = n + n^3 * n! ∈ Θ (n^3 * n!)$
+So $n + n *( n + n + n!) = n + 2n^2 + n * n! ∈ Θ (n * n!)$
 
 
 What does a best-case input for your implementation look like?
