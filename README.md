@@ -47,7 +47,7 @@ What is the runtime complexity of the algorithm that you implemented?
 8 5 swap elements A&B which can be done in constant time
 
 
-So n + n * n * n * n! = n + n^3 * n! ∈ Θ (n^3 * n!)$
+So $n + n * n * n * n! = n + n^3 * n! ∈ Θ (n^3 * n!)$
 
 
 What does a best-case input for your implementation look like?
