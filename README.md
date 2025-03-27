@@ -42,6 +42,8 @@ What is the runtime complexity of the algorithm that you implemented?
 
 
 7 inside of the for loop sorted I call sorted which has a for loop that will run for the length of an array so the complexity of that is n
+
+
 8 5 swap elements A&B which can be done in constant time
 
 
